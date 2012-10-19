@@ -1,6 +1,6 @@
 if (Meteor.is_client) {
   Template.aloha.greeting = function () {
-    return "Aloha Meteor! Aloha Editor. The HTML5 contentEditable WYSIWYG editor.";
+    return "Aloha Meteor! Use HTML5 contentEditable to edit content in your application.";
   };
 
   Template.aloha.events = {
@@ -9,7 +9,7 @@ if (Meteor.is_client) {
       // template data, if any, is available in 'this'
       if (typeof console !== 'undefined')
         console.log("You activated Aloha Editor!");
-    }
+      }
   };
 }
 
