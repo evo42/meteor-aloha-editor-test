@@ -1,15 +1,15 @@
 if (Meteor.is_client) {
   Template.aloha.greeting = function () {
-    return "Aloha! Meteor with Aloha Editor support -- HTML5 contentEditable WYSIWYG editor.";
+    return "Aloha Meteor! Use HTML5 contentEditable to edit content in your application.";
   };
 
   Template.aloha.events = {
     'click input' : function () {
-      $(".aloha-editable").aloha();
-      // template data, if any, is available in 'this'
+      // this will enable Aloha Editor for all HTML elements with the class "editable"
+      $(".editable").aloha();
       if (typeof console !== 'undefined')
         console.log("You activated Aloha Editor!");
-    }
+      }
   };
 }
 

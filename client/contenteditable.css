@@ -1,5 +1,9 @@
 /* CSS declarations go here */
 h1 {
-	color: blue;
+	color: #cecece;
 	font-size: 25px;
+}
+
+body {
+	font-family: Helvetica;
 }

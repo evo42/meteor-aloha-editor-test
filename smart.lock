@@ -1,0 +1,19 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master",
+    "commit": "5d736d4bf0448c7db1f9b47124dfafc34a9631bb"
+  },
+  "dependencies": {
+    "basePackages": {
+      "aloha-editor": {
+        "path": "/Users/rene/evo42/app/aloha/meteor-aloha-editor"
+      }
+    },
+    "packages": {
+      "aloha-editor": {
+        "path": "/Users/rene/evo42/app/aloha/meteor-aloha-editor"
+      }
+    }
+  }
+}

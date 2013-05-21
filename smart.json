@@ -1,0 +1,10 @@
+{
+  "meteor": {
+    "branch": "master"
+  },
+  "packages": {
+    "aloha-editor" : {
+      "path": "/Users/rene/evo42/app/aloha/meteor-aloha-editor"
+    }
+  }
+}
